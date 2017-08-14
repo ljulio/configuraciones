@@ -1,0 +1,41 @@
+# Tutorial instalacion node
+#https://nodejs.org/en/download/package-manager/
+
+sudo apt-get install -y build-essential
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+apt-get install nodejs
+
+
+#Instalar PhoneGap
+sudo npm install -g phonegap
+phonegap -v
+
+
+
+#instalar Android Estudio
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+
+#tutorial phonegap build
+http://docs.phonegap.com/phonegap-build/getting-started/
+
+#Deploy app android
+https://support.google.com/googleplay/android-developer/answer/113469?hl=es&ref_topic=7072031
+
+
+https://build.phonegap.com/apps/2531344/builds
+
+
+#tutoriales
+https://cordova.apache.org/docs/es/latest/guide/cli/#crear-la-aplicaci%C3%B3n
+http://cordova.apache.org/docs/en/latest/config_ref/index.html#sample-configxml
+http://docs.phonegap.com/phonegap-build/configuring/preferences/#example
+http://victorroblesweb.es/2016/01/09/crear-apk-con-cordova/
+https://geekytheory.com/node-js-primeros-pasos-y-hola-mundo
+http://www.phonegapspain.com/que-es-y-como-empezar-con-ionic-framework/
+https://cordova.apache.org/#getstarted
+http://rukbottoland.com/blog/como-instalar-node-js-y-npm/
+
+#construir apk en phonegap
+https://build.phonegap.com/
+https://github.com/phonegap/phonegap-start
+http://www.phonegapspain.com/tutoriales/

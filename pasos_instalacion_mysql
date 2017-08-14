@@ -1,0 +1,12 @@
+#Pregunte al sistema si se encuentran instalados los paquetes que componen MySQL™
+rpm -q mysql mysql-server 
+
+#Download MySQL APT Repository
+#MySQL APT Repository
+https://dev.mysql.com/downloads/repo/apt/
+sudo dpkg -i mysql-apt-config_0.8.1-1_all.deb 
+sudo apt-get update
+sudo apt-get install mysql-server
+sudo service mysql status
+
+

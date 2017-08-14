@@ -1,0 +1,29 @@
+You are using pip version 8.1.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+pip install --upgrade pip
+pip3 install --upgrade pip
+
+python -c "import django; print(django.__path__)"
+['/home/jlopez25/.local/lib/python2.7/site-packages/django']
+
+python3 -c "import django; print(django.__path__)"
+['/home/jlopez25/.local/lib/python3.5/site-packages/django']
+
+
+
+python -c "import sys; print(sys.path)"
+
+['', '/usr/lib/python2.7', '/usr/lib/python2.7/plat-x86_64-linux-gnu', '/usr/lib/python2.7/lib-tk', '/usr/lib/python2.7/lib-old', '/usr/lib/python2.7/lib-dynload', '/home/jlopez25/.local/lib/python2.7/site-packages', '/usr/local/lib/python2.7/dist-packages', '/usr/lib/python2.7/dist-packages', '/usr/lib/python2.7/dist-packages/PILcompat', '/usr/lib/python2.7/dist-packages/gtk-2.0', '/usr/lib/python2.7/dist-packages/ubuntu-sso-client']
+
+
+python3 -c "import sys; print(sys.path)"
+['', '/usr/lib/python35.zip', '/usr/lib/python3.5', '/usr/lib/python3.5/plat-x86_64-linux-gnu', '/usr/lib/python3.5/lib-dynload', '/home/jlopez25/.local/lib/python3.5/site-packages', '/usr/local/lib/python3.5/dist-packages', '/usr/lib/python3/dist-packages']
+
+
+/home/jlopez25/.local/lib/python3.5/site-packages/django/bin
+
+
+sudo ln -s /path/to/django/bin/django-admin.py /usr/local/bin/django-admin.py
+
+sudo ln -s /home/jlopez25/.local/lib/python3.5/site-packages/django/bin/django-admin.py /usr/local/bin/django-admin.py

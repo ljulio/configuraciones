@@ -1,0 +1,15 @@
+sudo apt-get install postgresql  libpq-dev
+sudo su postgres
+psql -d postgres -U postgres
+postgres=#
+postgres=# alter user postgres with password '123456';
+postgres=# \q
+sudo apt-get install pgadmin3
+
+#Crear base de datos:
+
+CREATE DATABASE nombre_db WITH OWNER nombre_usuario;
+
+CREATE DATABASE test WITH OWNER postgres;
+
+

@@ -1,0 +1,10 @@
+#Version de apache
+apache2ctl -v
+
+a2enmod rewrite
+cat /etc/apache2/mods-available/rewrite.load
+apache2ctl -M
+apache2ctl -M | grep -i rewrite
+/etc/init.d/apache2 reload
+/etc/init.d/apache2 restart
+service apache2 restart

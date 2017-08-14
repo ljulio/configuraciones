@@ -1,0 +1,4 @@
+
+alien --scripts *.rpm
+sudo dpkg -i nombre_archivo.deb
+sudo vi /opt/sqldeveloper/sqldeveloper/bin/sqldeveloper.conf

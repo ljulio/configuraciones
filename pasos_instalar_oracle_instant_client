@@ -1,0 +1,26 @@
+apt-get install libaio1 alien
+
+sudo alien -i oracle-instantclient*-basic-*.rpm
+sudo alien -i oracle-instantclient*-devel-*.rpm  
+sudo alien -i oracle-instantclient*-sqlplus-*.rpm
+
+$ nano /etc/profile.d/oracle.sh
+
+export ORACLE_HOME=/usr/lib/oracle/10.2.0.5/client64 
+export TNS_ADMIN=/usr/lib/oracle/10.2.0.5/client64/network/admin
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib
+export ORACLE_BASE=/usr/lib/oracle
+export PATH=$ORACLE_HOME/bin:$ORACLE_HOME/OPatch:$PATH
+
+
+$ nano /etc/bash.bashrc
+
+export LD_LIBRARY_PATH=/usr/lib/oracle/10.2.0.5/client64/lib
+export ORACLE_HOME=/usr/lib/oracle/10.2.0.5/client64
+export TNS_ADMIN=/usr/lib/oracle/10.2.0.5/client64/network/admin
+export ORACLE_BASE=/usr/lib/oracle
+export PATH=$ORACLE_HOME/bin:$ORACLE_HOME/OPatch:$PATH
+
+
+
+

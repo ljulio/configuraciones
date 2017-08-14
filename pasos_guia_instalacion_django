@@ -1,0 +1,26 @@
+python -m pip install django==1.8.9
+
+
+#Comprobar la version  de django
+>>> import django
+>>> django.VERSION
+
+python -c "import django; print(django.get_version())"
+
+
+#instalar virtualenv
+python -m pip install virtualenv
+
+#crear ambiente virtual
+virtualenv [directorio]
+
+#activar ambiente virtual
+source env/bin/activate
+
+
+#ver paquetes instalados
+python -m pip freeze
+
+#instalar adaptador para postgresql
+pip install psycopg2
+

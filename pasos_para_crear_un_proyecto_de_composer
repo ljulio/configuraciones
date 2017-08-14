@@ -1,0 +1,25 @@
+##############
+# Iniciar un proyecto de composer
+############
+
+composer init
+
+
+##############
+# Instalar dependencias
+############
+
+composer install
+
+##############
+# Actualizar dependencias
+############
+
+composer update dependencia/dependencia
+
+
+composer require illuminate/database
+
+
+
+composer dump-autoload

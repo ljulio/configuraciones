@@ -1,0 +1,10 @@
+#configurar grub
+
+cp /boot/grub/grub.cfg /boot/grub/grub_bkp.cfg
+
+#Ver los sistemas operativos
+cat /boot/grub/grub.cfg | grep menuentry
+
+
+#sudo nano /etc/default/grub
+

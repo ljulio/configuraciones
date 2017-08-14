@@ -1,0 +1,5 @@
+sudo fdisk -l
+sudo mkdir /media/pendrive
+sudo mount -t vfat  /dev/sdb1 /media/pendrive/
+
+umount -f /datos
